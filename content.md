@@ -33,18 +33,6 @@ https://upload.wikimedia.org/wikipedia/commons/3/3f/An_Ambitious_Wikidata_Tutori
 ===
 
 
-## Manuelle Dateneingabe &mdash; Beispiel
-
-Account erstellen: https://www.wikidata.org/wiki/Special:CreateAccount
-
-https://www.wikidata.org/wiki/Q63819485
-
-http://gateway-bayern.de/BV043869295
-
-
-===
-
-
 ## Wikidata Wissensnetz
 
 Grundlegende Datenstruktur ist ein Netzwerk / Graph:
@@ -68,20 +56,41 @@ Extras:
 
 - als Datenquelle
 
-- (als Datensenke)
+- als Datensenke
 
 
 ===
 
 
-### Wikidata als Normdatei
+## Wikidata als Normdatei
 
-Manuelle Verweise durch Identifikatoren:
+Manuelle Verweise über Identifikatoren:
 
-- Q-Nummer, URI, persistente URL
+- Q-Nummer: fortlaufende Nummer
+- URI: Linked Data
+- persistente URL: Zitation
 
 
+===
 
 
+## Wikidata als Normdatei
+
+Automatischer Abgleich:
+
+- Einige Werkzeuge haben eine Wikidata-Schnittstelle
+- Beispiel [OpenRefine](openrefine.org)
+
+
+> > >
+
+
+### Wikidata in OpenRefine nutzen
+
+Funktion *Reconcile*: Automatisches Zuordnen von Datenwerten zu Wikidata-Instanzen
+
+Beispiel-Datensatz: Autoren der [Briefsammlung Trew](https://ub.fau.de/sammlungen/digitale-sammlungen/#collapse_12015) (Buchstabe C)
+
+Ziel: Verbinde Autorennamen mit Wikidata
 
 
