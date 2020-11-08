@@ -79,6 +79,7 @@ Manuelle Verweise über Identifikatoren:
 Automatischer Abgleich:
 
 - Einige Werkzeuge haben eine Wikidata-Schnittstelle
+  - 
 - Beispiel [OpenRefine](https://openrefine.org)
 
 
@@ -90,7 +91,39 @@ Automatischer Abgleich:
 Funktion *Reconcile*: Automatisches Zuordnen von Datenwerten zu Wikidata-Instanzen
 
 Beispiel-Datensatz: Autoren der [Briefsammlung Trew](https://ub.fau.de/sammlungen/digitale-sammlungen/#collapse_12015) (Buchstabe C)
+- [Datensatz](trew_verfasser_c.csv)
 
 Ziel: Verbinde Autorennamen mit Wikidata
 
+
+===
+
+
+## Wikidata als Datenquelle
+
+Wikidata-Daten stehen in unterschiedlicher Form bereit:
+
+- Dump
+- Sparql-Endpoint
+- LOD: JSON, etc.
+
+
+> > >
+
+
+## Die Sparql-Schnittstelle nutzen
+
+[pic]
+
+
+> > >
+
+
+### Die Sparql-Schnittstelle nutzen
+
+- Die GUI bietet zahlreiche Hilfestellungen für Einsteiger
+  - Am besten anhand geeigneter Beispiele eine Anfrage konstruieren
+- Verschiedene Visualisierungsmöglichkeiten
+
+- Beispiel: Zeige alle Museen Deutschlands auf einer Karte
 
