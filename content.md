@@ -79,7 +79,7 @@ Manuelle Verweise über Identifikatoren:
 Automatischer Abgleich:
 
 - Einige Werkzeuge haben eine Wikidata-Schnittstelle
-- Beispiel [OpenRefine](openrefine.org)
+- Beispiel [OpenRefine](https://openrefine.org)
 
 
 > > >
