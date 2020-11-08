@@ -70,6 +70,8 @@ Manuelle Verweise über Identifikatoren:
 - URI: Linked Data
 - persistente URL: Zitation
 
+![Screenshot that highlights where to find differnt identifiers on an entity page](where_to_find_ids.png)
+
 
 ===
 
@@ -90,10 +92,10 @@ Automatischer Abgleich:
 
 Funktion *Reconcile*: Automatisches Zuordnen von Datenwerten zu Wikidata-Instanzen
 
-Beispiel-Datensatz: Autoren der [Briefsammlung Trew](https://ub.fau.de/sammlungen/digitale-sammlungen/#collapse_12015) (Buchstabe C)
+Beispiel-Datensatz: Ausschnitt der [Briefsammlung Trew](https://ub.fau.de/sammlungen/digitale-sammlungen/#collapse_12015) (Verfasser mit Buchstabe C)
 - [Datensatz](trew_verfasser_c.csv)
 
-Ziel: Verbinde Autorennamen mit Wikidata
+Ziel: Verbinde Namen der Verfasser mit Wikidata
 
 
 ===
