@@ -15,18 +15,27 @@ https://www.wikidata.org
 ---
 
 
-## Wissensnetz
+## Datenmodell
+
+![Das Datenmodell von Wikidata](https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Datamodel_in_Wikidata_de.svg/500px-Datamodel_in_Wikidata_de.svg.png)
+
+https://de.wikipedia.org/wiki/Wikidata
+
+
+---
+
+
+## Wissensnetz und Wissens-Hub
 
 Grundlegende Datenstruktur ist ein Netzwerk / Graph:
 - Entitäten: Instanzen, Klassen
 - Eigenschaften
 - Tripel
 
-Extras:
+Features:
+- Qualifikatoren
+- fremde Identifikatoren
 - Wikimedia-Querverweise
-- Medien
-- Qualifikatoren (Eigenschaften von Eigenschaften)
-
 
 ---
 
@@ -63,7 +72,7 @@ Manuelle Verweise über Identifikatoren:
 
 ## Wikidata in OpenRefine nutzen
 
-[OpenRefine](https://openrefine.org) hat eine Wikidata-Schnittstelle zum (semi-)automatischen Abgleich: Funktion *Reconcile*
+[OpenRefine](https://openrefine.org) hat eine Wikidata-Schnittstelle zum (semi-)automatischen Abgleich: **Reconcile**
 
 Beispiel: 
 - Tabellarische Daten zur [Briefsammlung Trew](https://ub.fau.de/sammlungen/digitale-sammlungen/#collapse_12015) 
@@ -74,33 +83,14 @@ Beispiel:
 > > >
 
 
-### OpenRefine installieren
+### OpenRefine installieren (Windows)
 
-- [Download] der Zip-Datei
+- [Download](https://openrefine.org/download.html) der Zip-Datei
 - Entpacken
 - refine.bat ausführen
 - Eventuell [Installationsanleitung](https://github.com/OpenRefine/OpenRefine/wiki/Installation-Instructions) beachten (Warnungen, etc.)
 
-- Es sollte automatisch ein Browser-Fenster geöffnet werden.
-
-> > >
-
-![Öffnen einer Datei mit tabellarischen Daten](openrefine_open_file.png)
-
-Beispiel-Daten herunterladen und in OpenRefine öffnen.
-
-> > >
-
-![](openrefine_open_file.png)
-
-In der Regel erkennt OpenRefine die .
-
-> > >
-
-![Öffnen einer Datei mit tabellarischen Daten](openrefine_open_file.png)
-
-Beispiel-Daten herunterladen und in OpenRefine öffnen.
-
+- Es sollte automatisch ein Browser-Fenster mit OpenRefine geöffnet werden.
 
 
 ---
@@ -121,7 +111,7 @@ Wikidata-Daten stehen in unterschiedlicher Form bereit:
 
 ## Die Sparql-Schnittstelle nutzen
 
-![query_interface.png]
+![Die Sparql-Schnittstelle von Wikidata umfasst eine komfortable graphische Benutzeroberfläche](query_interface.png)
 
 
 > > >
@@ -134,6 +124,7 @@ Wikidata-Daten stehen in unterschiedlicher Form bereit:
 - Verschiedene Visualisierungsmöglichkeiten
 
 - Beispiel: Zeige alle Museen Deutschlands auf einer Karte
+
 
 ---
 
