@@ -1,4 +1,8 @@
-# Eine kurze Einführung in Wikidata
+# Wikidata: Wissenshub und Normdatei 
+
+- - - 
+
+## Eine kurze Einführung in Wikidata
 
 
 - https://dhlab.ub.fau.de/slides/wikidata-tutorial/
