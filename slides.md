@@ -1,6 +1,10 @@
 # Eine kurze Einführung in Wikidata
 
-- - - - - - - - - - - - - - - - - - -
+
+- https://dhlab.ub.fau.de/slides/wikidata-tutorial/
+- https://github.com/dhlab-ub-fau-de/wikidata-tutorial
+
+---
 
 
 > Wikidata ist eine freie Wissensdatenbank, die sowohl von Menschen als auch von Maschinen gelesen und bearbeitet werden kann. 
@@ -11,40 +15,17 @@ https://www.wikidata.org
 ---
 
 
-## Links 
-
-https://de.wikipedia.org/wiki/Wikidata
-
-https://query.wikidata.org/
-
-- - -
-
-https://www.wikidata.org/wiki/Wikidata:Data_access/de
-
-https://www.wikidata.org/wiki/Wikidata:Data_donation/de
-
-- - -
-
-https://upload.wikimedia.org/wikipedia/commons/5/5c/Wikidata_-_A_Gentle_Introduction_for_Complete_Beginners_%28Estonia_2017%29.pdf
-
-https://upload.wikimedia.org/wikipedia/commons/3/3f/An_Ambitious_Wikidata_Tutorial.pdf
-
-
----
-
-
-## Wikidata Wissensnetz
+## Wissensnetz
 
 Grundlegende Datenstruktur ist ein Netzwerk / Graph:
-
-- Entitäten
+- Entitäten: Instanzen, Klassen
 - Eigenschaften
 - Tripel
 
 Extras:
-- Label
+- Wikimedia-Querverweise
 - Medien
-- Eigenschaften von Eigenschaften
+- Qualifikatoren (Eigenschaften von Eigenschaften)
 
 
 ---
@@ -70,32 +51,56 @@ Manuelle Verweise über Identifikatoren:
 - URI: Linked Data
 - persistente URL: Zitation
 
-![Screenshot that highlights where to find differnt identifiers on an entity page](where_to_find_ids.png)
+
+> > >
+
+
+![Der Screenshot zeigt, wo sich die verschiedenen Identifikatoren auf einer Entitäten-Seite befinden.](where_to_find_ids.png)
 
 
 ---
 
 
-## Wikidata als Normdatei
+## Wikidata in OpenRefine nutzen
 
-Automatischer Abgleich:
+[OpenRefine](https://openrefine.org) hat eine Wikidata-Schnittstelle zum (semi-)automatischen Abgleich: Funktion *Reconcile*
 
-- Einige Werkzeuge haben eine Wikidata-Schnittstelle
-  - 
-- Beispiel [OpenRefine](https://openrefine.org)
+Beispiel: 
+- Tabellarische Daten zur [Briefsammlung Trew](https://ub.fau.de/sammlungen/digitale-sammlungen/#collapse_12015) 
+- [Datensatz](trew_verfasser_c.csv) (Ausschnitt mit Verfassern mit Buchstabe C)
+- Ziel: Verbinde Namen der Verfasser mit Wikidata
 
 
 > > >
 
 
-### Wikidata in OpenRefine nutzen
+### OpenRefine installieren
 
-Funktion *Reconcile*: Automatisches Zuordnen von Datenwerten zu Wikidata-Instanzen
+- [Download] der Zip-Datei
+- Entpacken
+- refine.bat ausführen
+- Eventuell [Installationsanleitung](https://github.com/OpenRefine/OpenRefine/wiki/Installation-Instructions) beachten (Warnungen, etc.)
 
-Beispiel-Datensatz: Ausschnitt der [Briefsammlung Trew](https://ub.fau.de/sammlungen/digitale-sammlungen/#collapse_12015) (Verfasser mit Buchstabe C)
-- [Datensatz](trew_verfasser_c.csv)
+- Es sollte automatisch ein Browser-Fenster geöffnet werden.
 
-Ziel: Verbinde Namen der Verfasser mit Wikidata
+> > >
+
+![Öffnen einer Datei mit tabellarischen Daten](openrefine_open_file.png)
+
+Beispiel-Daten herunterladen und in OpenRefine öffnen.
+
+> > >
+
+![](openrefine_open_file.png)
+
+In der Regel erkennt OpenRefine die .
+
+> > >
+
+![Öffnen einer Datei mit tabellarischen Daten](openrefine_open_file.png)
+
+Beispiel-Daten herunterladen und in OpenRefine öffnen.
+
 
 
 ---
@@ -105,17 +110,18 @@ Ziel: Verbinde Namen der Verfasser mit Wikidata
 
 Wikidata-Daten stehen in unterschiedlicher Form bereit:
 
-- Dump
-- Sparql-Endpoint
-- LOD: JSON, etc.
+- [Dump](https://www.wikidata.org/wiki/Wikidata:Database_download)
+- [Linked Open Data (JSON, RDF, etc.)](https://www.wikidata.org/wiki/Wikidata:Data_access#Linked_Data_interface)
+- [Sparql-Endpoint](https://query.wikidata.org)
 
 
 > > >
 
 
+
 ## Die Sparql-Schnittstelle nutzen
 
-[pic]
+![query_interface.png]
 
 
 > > >
@@ -128,4 +134,28 @@ Wikidata-Daten stehen in unterschiedlicher Form bereit:
 - Verschiedene Visualisierungsmöglichkeiten
 
 - Beispiel: Zeige alle Museen Deutschlands auf einer Karte
+
+---
+
+
+## Links 
+
+
+
+- [Wikidata](https://www.wikidata.org)
+- [Sparql Endpoint](https://query.wikidata.org/)
+
+- - -
+
+- [Zugriff auf Daten](https://www.wikidata.org/wiki/Wikidata:Data_access/de)
+- [Eingabe/Upload von Daten](https://www.wikidata.org/wiki/Wikidata:Data_donation/de)
+- [Übersicht zu Wikidata-Werkzeugen](https://www.wikidata.org/wiki/Wikidata:Tools)
+
+- - -
+
+Tutorials (PDF):
+- [Wikidata -- Gentle Introduction for Complete Beginners](https://upload.wikimedia.org/wikipedia/commons/5/5c/Wikidata_-_A_Gentle_Introduction_for_Complete_Beginners_%28Estonia_2017%29.pdf)
+- [An Ambitious Wikidata Tutorial](https://upload.wikimedia.org/wikipedia/commons/3/3f/An_Ambitious_Wikidata_Tutorial.pdf)
+- [Studon-Kurs zu Sparql mit Wikidata als Anwendungsbeispiel](https://www.studon.fau.de/pg570378_2798870.html) (nur mit Anmeldung in Studon)
+
 
