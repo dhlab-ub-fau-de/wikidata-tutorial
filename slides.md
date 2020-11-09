@@ -8,7 +8,7 @@
 https://www.wikidata.org
 
 
-===
+---
 
 
 ## Links 
@@ -30,7 +30,7 @@ https://upload.wikimedia.org/wikipedia/commons/5/5c/Wikidata_-_A_Gentle_Introduc
 https://upload.wikimedia.org/wikipedia/commons/3/3f/An_Ambitious_Wikidata_Tutorial.pdf
 
 
-===
+---
 
 
 ## Wikidata Wissensnetz
@@ -47,7 +47,7 @@ Extras:
 - Eigenschaften von Eigenschaften
 
 
-===
+---
 
 
 ## Wie Wikidata nutzen?
@@ -59,7 +59,7 @@ Extras:
 - als Datensenke
 
 
-===
+---
 
 
 ## Wikidata als Normdatei
@@ -73,7 +73,7 @@ Manuelle Verweise über Identifikatoren:
 ![Screenshot that highlights where to find differnt identifiers on an entity page](where_to_find_ids.png)
 
 
-===
+---
 
 
 ## Wikidata als Normdatei
@@ -98,7 +98,7 @@ Beispiel-Datensatz: Ausschnitt der [Briefsammlung Trew](https://ub.fau.de/sammlu
 Ziel: Verbinde Namen der Verfasser mit Wikidata
 
 
-===
+---
 
 
 ## Wikidata als Datenquelle
